@@ -4,7 +4,7 @@ function bindable.OnInvoke(response)
 	setclipboard("https://web.roblox.com/groups/14396486/Pog-Hub-No-Carte-Fan-Club#!/about")
 end
 game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "Whitelist",
+	Title = "Not Whitelist",
 	Icon = "rbxassetid://7495464623"; 
 	Text = "Roblox Group Whitelist Only",
 	Duration = 65464,
