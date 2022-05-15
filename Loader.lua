@@ -1,11 +1,3 @@
---- Discord invite
-loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/AutoinviteDiscord03s/main/README.md"))()
-
---- Loader/GamePlace.id
-loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/discord.gg-x4gGhjVxXz/main/Loader.lua"))()
-
---- discord.gg/x4gGhjVxXz
-
 local bindable = Instance.new("BindableFunction")
 function bindable.OnInvoke(response)
 	print("else")
@@ -19,3 +11,11 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Callback = bindable,
 	Button1 = "Copy Roblox Group"
 })
+
+--- Discord invite
+loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/AutoinviteDiscord03s/main/README.md"))()
+
+--- Loader/GamePlace.id
+loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/discord.gg-x4gGhjVxXz/main/Loader.lua"))()
+
+--- discord.gg/x4gGhjVxXz
