@@ -12,6 +12,28 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Button1 = "Copy Roblox Group"
 })
 
+local groupID = 14396486
+
+
+local plr = game.Players.LocalPlayer
+
+script.Parent.Enabled = false
+
+repeat wait() until plr.Character
+
+local gui = script.Parent
+
+
+if plr:IsInGroup(groupID) then
+
+	script.Parent.Enabled = true
+
+else
+
+	script.Parent:Destroy()
+
+end
+
 --- Discord invite
 loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/AutoinviteDiscord03s/main/README.md"))()
 
